@@ -1,0 +1,1 @@
+res = "합격" if(jumsu >=60) else res = "불합격"
