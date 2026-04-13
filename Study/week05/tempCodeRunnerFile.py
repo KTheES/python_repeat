@@ -1,5 +1,11 @@
-for i in range(2,10,1):
-#     for j in range(1,10,1) :
-#         print("%d x %d = %2d" %(i, j , i*j))
-#     print("")
-    
+aa = [10,20,30,40,50,60,70]
+# bb = ['H','E','L','L','O']
+# aa[::2]
+# aa[::-2]
+# aa[::-1]
+# print(aa[:3:-1])
+# print(aa[::3])
+
+
+# aa+bb
+# aa*3

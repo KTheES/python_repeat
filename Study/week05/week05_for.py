@@ -19,10 +19,14 @@
 
 
 # 중첩 for 문 구구단 (세로)
-# for i in range(1,10,1):
-#     for j in range(2,10,1) :
-#         print("%d x %2d = %2d" %(i, j , i*j), end=" ")
-#     print("")
+
+i, dan  = 0,0
+dan = int(input("단을 입력하세요: "))
+
+for i in range(1,10,1):
+    for j in range(2,dan+1,1) :
+        print("%d x %2d = %2d" %(i, j , i*j), end=" ")
+    print("")
 
 
 
