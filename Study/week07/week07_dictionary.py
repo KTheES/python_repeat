@@ -7,12 +7,15 @@
 #.keys() -> k들 출력
 #.values() -> v들 출력 
 
-# singer ={}
+singer ={}
 
-# singer['이름']= '트와이스'
-# singer['구성원 수']= 9
-# singer['데뷔']= '서바이벌 식스틴'
-# singer['대표곡']= 'signal'
+singer['이름']= '트와이스'
+singer['구성원 수']= 9
+singer['데뷔']= '서바이벌 식스틴'
+singer['대표곡']= 'signal'
+
+for i in singer.items():
+    print(i)
 
 # for k in singer.keys():
 #     print("%s --> %s"%(k,singer[k]))
@@ -22,8 +25,7 @@
 #     print(singer)
 # print()
 
-# for i in singer.items():
-#     print(singer)
+
 
 # 이거 val / item다른점은  시험에 안나옵니다
 
@@ -36,6 +38,6 @@
 
 # 리스트 컴프리헨션
 
-numList = [num for num in range(1,21) if(num%3==0)]
-print(numList)
+# numList = [num for num in range(1,21) if(num%3==0)]
+# print(numList)
 

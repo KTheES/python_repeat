@@ -81,7 +81,7 @@ print(aa)
 aa=None
 print(aa)
 del(aa) #del .
-print(aa)
+# print(aa)
 
 
 
